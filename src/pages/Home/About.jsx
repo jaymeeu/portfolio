@@ -31,7 +31,7 @@ const About = () => {
                             I am Abdulrasaq, a frontend developer
                         </span>}
                         title={<div className='insideText'>
-                            A computer scientist, frontend developer with core strength in ReactJS, have vexed years of experience in
+                            A computer scientist, frontend developer with core strength in ReactJS, have years of experience in
                             development of professonal web applications, passionate about
                             excellence and professionalism in core software
                             development, coding and front-end programming,

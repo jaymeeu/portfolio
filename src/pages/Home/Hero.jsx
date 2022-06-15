@@ -41,7 +41,7 @@ const Hero = () => {
                     title={<>
                         Frontend - HTML, CSS, JavaScript, ReactJS, ReactNative
                         <div className='insideText' style={{margin: "20px 0"}}>
-                            A computer scientist with vexed years of experience in
+                            A computer scientist with years of experience in
                             development of professonal web applications, passionate about
                             excellence and professionalism in core software
                             development, coding and front-end programming,
