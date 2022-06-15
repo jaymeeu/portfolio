@@ -40,7 +40,7 @@ const Hero = () => {
                     </>}
                     title={<>
                         Frontend - HTML, CSS, JavaScript, ReactJS, ReactNative
-                        <div style={{ textAlign: 'justify', lineHeight: '30px', width: "100%", paddingRight: '50px', margin: '20px 0' }}>
+                        <div className='insideText' style={{margin: "20px 0"}}>
                             A computer scientist with vexed years of experience in
                             development of professonal web applications, passionate about
                             excellence and professionalism in core software

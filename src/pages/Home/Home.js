@@ -16,6 +16,8 @@ export default function Home() {
         AOS.init({
             duration: 500
           });
+
+      window.scrollTo(0, 0);
     }, [])
     
     return (

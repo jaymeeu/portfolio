@@ -27,10 +27,10 @@ const About = () => {
                     <ContentInfo
                         color='var(--black-color)'
                         flex_size={6}
-                        text={<span style={{ fontSize: 'var(--sub-header-size)', color: 'var(--black-color)', lineHeight: '20px' }}>
+                        text={<span style={{ fontSize: 'var(--sub-header-size)', color: 'var(--black-color)' }}>
                             I am Abdulrasaq, a frontend developer
                         </span>}
-                        title={<div style={{ textAlign: 'justify', lineHeight: '30px', width: "100%", paddingRight: '50px' }}>
+                        title={<div className='insideText'>
                             A computer scientist, frontend developer with core strength in ReactJS, have vexed years of experience in
                             development of professonal web applications, passionate about
                             excellence and professionalism in core software

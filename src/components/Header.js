@@ -9,7 +9,7 @@ export default function Header() {
     const path = [
         {
             title : "Home",
-            path:"#home"
+            path:"#"
         },
         {
             title : "About",
