@@ -1,0 +1,124 @@
+.port_container{
+    width: 100%;
+    padding: 0px 50px;
+    /* background-color: var(--light) ; */
+    /* margin-top: 30px; */
+}
+.port_body{
+    position: relative;
+    width: 100%;
+}
+.port_card:hover .slidein_text {
+    transition: 0.5s;
+    bottom: 0px;
+    z-index: 1;
+}
+.slidein_text{
+    position: absolute;
+    bottom:  -20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: black;
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 7px;
+    z-index: -1;
+}
+.slidein_text div{
+    color: white;
+    opacity: 1;
+    z-index: 1;
+}
+.slidein_text span{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    opacity: 1;
+
+}
+.port_card{
+    width: 100%;
+    position: relative;
+    height: 200px;
+    background-color: gray;
+    border-radius: 7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.port_label{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px 0;
+    align-items: center;
+    user-select: none;
+}
+.port_label_span{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    cursor: pointer;
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+
+/* #hover-content {
+    display:none;
+}
+#parent:hover #hover-content {
+    display:block;
+}
+#hover-content {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  } */
+
+
+#parent:hover #hover-content {
+    transition: 1s;
+    bottom: 0;
+}
+#hover-content {
+    position: absolute;
+    bottom:  -100px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+  }
+  
+  @-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+@media screen and (max-width:900px) {
+    .port_card{
+        width: 100%;
+        position: relative;
+        height: 200px;
+        background-color: gray;
+        border-radius: 7px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
